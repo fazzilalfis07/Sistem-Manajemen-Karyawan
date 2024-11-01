@@ -1,0 +1,339 @@
+<html>
+ <head>
+  <title>
+   Sistem Informasi Manajemen Pegawai
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-64 bg-white h-screen shadow-md">
+    <div class="p-4">
+     <img alt="University Logo" class="mx-auto mb-4" height="50" src="pengalaman.png" width="50"/>
+     <h2 class="text-center text-lg font-semibold">
+      PT.MANDIRI SUKSES
+     </h2>
+    </div>
+    <div class="p-4">
+     <p class="text-center mb-4">
+      Fazzil Alfis Ramadhan
+      <br/>
+      Administrator
+     </p>
+     <ul>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="dashboard/dashboard.html">
+        <i class="fas fa-tachometer-alt mr-2">
+        </i>
+        Dashboard
+       </a>
+      </li>
+     </ul>
+     <p class="text-gray-500 mt-4 mb-2">
+      MENU KARYAWAN
+     </p>
+     <ul>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="#">
+        <i class="fas fa-users mr-2">
+        </i>
+        Karyawan
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="jabatan/jabatan.htm">
+        <i class="fas fa-briefcase mr-2">
+        </i>
+        Jabatan
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="Divisi/divisi.html">
+        <i class="fas fa-building mr-2">
+        </i>
+        Divisi
+       </a>
+      </li>
+     </ul>
+     <p class="text-gray-500 mt-4 mb-2">
+      MENU ABSENSI
+     </p>
+     <ul>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="Daftar Kehadiran Karyawan/Data Hadir Karyawan.html">
+        <i class="fas fa-calendar-check mr-2">
+        </i>
+        Absensi
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="Daftar Izin Karyawan/Daftar Izin Karyawan.html">
+        <i class="fas fa-envelope-open-text mr-2">
+        </i>
+        Izin
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="Daftar Lembur Karyawan/Daftar Lembur Karyawan.html">
+        <i class="fas fa-clock mr-2">
+        </i>
+        Lembur
+       </a>
+      </li>
+     </ul>
+     <p class="text-gray-500 mt-4 mb-2">
+      MENU PENGGAJIAN
+     </p>
+     <ul>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="Daftar Izin Karyawan/Daftar Izin Karyawan.html">
+        <i class="fas fa-file-invoice-dollar mr-2">
+        </i>
+        Slip Gaji
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <!-- Main Content -->
+   <div class="flex-1">
+    <div class="bg-blue-600 p-4 text-white flex justify-between items-center">
+     <h1 class="text-xl font-semibold">
+      Sistem Informasi Manajemen Karyawan
+     </h1>
+     <div class="flex items-center">
+      <span class="mr-4">
+       Fazzil Alfis Ramadhan
+      </span>
+      <img alt="User Avatar" class="rounded-full" height="40" src="poto fazzil.jfif" width="40"/>
+     </div>
+    </div>
+    <div class="p-4">
+     <div class="grid grid-cols-4 gap-4 mb-4">
+      <div class="bg-white p-4 rounded shadow">
+       <div class="flex items-center">
+        <i class="fas fa-users text-3xl text-blue-600 mr-4">
+        </i>
+        <div>
+         <p class="text-gray-600">
+          Data baru Karyawan
+         </p>
+         <p class="text-2xl font-semibold">
+          4
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+       <div class="flex items-center">
+        <i class="fas fa-calendar-check text-3xl text-green-600 mr-4">
+        </i>
+        <div>
+         <p class="text-gray-600">
+          Absensi Hari Ini
+         </p>
+         <p class="text-2xl font-semibold">
+          100%
+         </p>
+         <p class="text-gray-500 text-sm">
+          1 nov 2024
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+       <div class="flex items-center">
+        <i class="fas fa-envelope-open-text text-3xl text-blue-600 mr-4">
+        </i>
+        <div>
+         <p class="text-gray-600">
+          Izin Menunggu Konfirmasi
+         </p>
+         <p class="text-2xl font-semibold">
+          4
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="bg-white p-4 rounded shadow">
+       <div class="flex items-center">
+        <i class="fas fa-clock text-3xl text-purple-600 mr-4">
+        </i>
+        <div>
+         <p class="text-gray-600">
+          Lembur Menunggu Konfirmasi
+         </p>
+         <p class="text-2xl font-semibold">
+          6
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="bg-white p-4 rounded shadow">
+      <div class="flex justify-between items-center mb-4">
+       <h2 class="text-xl font-semibold">
+        Data baru Pegawai
+       </h2>
+       <button class="bg-blue-600 text-white px-4 py-2 rounded">
+        + Tambah Karyawan
+       </button>
+      </div>
+      <table class="min-w-full bg-white">
+       <thead>
+        <tr>
+         <th class="py-2 px-4 border-b">
+          No
+         </th>
+         <th class="py-2 px-4 border-b">
+          Kode
+         </th>
+         <th class="py-2 px-4 border-b">
+          Nama
+         </th>
+         <th class="py-2 px-4 border-b">
+          Email
+         </th>
+         <th class="py-2 px-4 border-b">
+          Alamat
+         </th>
+         <th class="py-2 px-4 border-b">
+          Jabatan
+         </th>
+         <th class="py-2 px-4 border-b">
+          Aksi
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td class="py-2 px-4 border-b">
+          1
+         </td>
+         <td class="py-2 px-4 border-b">
+          K001
+         </td>
+         <td class="py-2 px-4 border-b">
+          Ferdiansyah
+         </td>
+         <td class="py-2 px-4 border-b">
+          dyansss@gmail.com
+         </td>
+         <td class="py-2 px-4 border-b">
+          Parung
+         </td>
+         <td class="py-2 px-4 border-b">
+          KARYAWAN
+         </td>
+         <td class="py-2 px-4 border-b">
+          <a class="text-blue-600 mr-2" href="#">
+           <i class="fas fa-edit">
+           </i>
+          </a>
+          <a class="text-red-600" href="#">
+           <i class="fas fa-trash">
+           </i>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td class="py-2 px-4 border-b">
+          2
+         </td>
+         <td class="py-2 px-4 border-b">
+          K002
+         </td>
+         <td class="py-2 px-4 border-b">
+          Tito Damansyah
+         </td>
+         <td class="py-2 px-4 border-b">
+          tidam13@gmail.com
+         </td>
+         <td class="py-2 px-4 border-b">
+          BSD CITY
+         </td>
+         <td class="py-2 px-4 border-b">
+          KARYAWAN
+         </td>
+         <td class="py-2 px-4 border-b">
+          <a class="text-blue-600 mr-2" href="#">
+           <i class="fas fa-edit">
+           </i>
+          </a>
+          <a class="text-red-600" href="#">
+           <i class="fas fa-trash">
+           </i>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td class="py-2 px-4 border-b">
+          3
+         </td>
+         <td class="py-2 px-4 border-b">
+          K003
+         </td>
+         <td class="py-2 px-4 border-b">
+          Razman siregar
+         </td>
+         <td class="py-2 px-4 border-b">
+          razman27@gmail.com
+         </td>
+         <td class="py-2 px-4 border-b">
+          CISEENG
+         </td>
+         <td class="py-2 px-4 border-b">
+          KARYAWAN
+         </td>
+         <td class="py-2 px-4 border-b">
+          <a class="text-blue-600 mr-2" href="#">
+           <i class="fas fa-edit">
+           </i>
+          </a>
+          <a class="text-red-600" href="#">
+           <i class="fas fa-trash">
+           </i>
+          </a>
+         </td>
+        </tr>
+        <tr>
+         <td class="py-2 px-4 border-b">
+          4
+         </td>
+         <td class="py-2 px-4 border-b">
+          K004
+         </td>
+         <td class="py-2 px-4 border-b">
+          Ahmad udin Jaelani
+         </td>
+         <td class="py-2 px-4 border-b">
+          ahmad@gmail.com
+         </td>
+         <td class="py-2 px-4 border-b">
+          GUNUG SINDUR 2
+         </td>
+         <td class="py-2 px-4 border-b">
+          KARYAWAN
+         </td>
+         <td class="py-2 px-4 border-b">
+          <a class="text-blue-600 mr-2" href="#">
+           <i class="fas fa-edit">
+           </i>
+          </a>
+          <a class="text-red-600" href="#">
+           <i class="fas fa-trash">
+           </i>
+          </a>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
